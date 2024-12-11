@@ -46,10 +46,7 @@ class ChooseRole extends StatelessWidget {
                     buttonText: translatorButton,
                     onTap: () => Get.toNamed('/login')),
                 Spaces.y2,
-                MyButton(
-                    buttonText: doctorButton,
-                    onTap: () => Get.toNamed('/login')),
-                Spaces.y1,
+
               ],
             ),
           ),
